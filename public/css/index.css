@@ -462,6 +462,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.logo__cls-1 {
+  fill: #fcfafd;
+}
+
+.logo__cls-2,
+.logo__cls-3 {
+  fill: #333;
+}
+
+.logo__cls-3 {
+  stroke: rgba(0, 0, 0, 0);
+}
+
+.logo__cls-4 {
+  fill: none;
+  stroke: #333;
+  stroke-width: 3px;
+}
+
 .page {
   display: flex;
   flex-direction: column;
