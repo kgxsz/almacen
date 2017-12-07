@@ -457,7 +457,6 @@ template {
 
 body {
   font-family: "Arial", sans-serif;
-  color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -512,11 +511,13 @@ body {
   padding: 40px 20px;
   background-color: #fcfafd;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .article__title {
   font-size: 30px;
   font-weight: bold;
+  color: #333333;
 }
 
 .article__dash {
