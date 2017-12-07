@@ -30,7 +30,7 @@ body {
  * Add the correct display in IE 9-.
  */
 
-article,
+article-listing,
 aside,
 footer,
 header,
@@ -41,7 +41,7 @@ section {
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
+ * `article-listing` contexts in Chrome, Firefox, and Safari.
  */
 
 h1 {
@@ -484,49 +484,69 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 80px 10px;
+  margin: 20px 10px 60px 10px;
 }
 
-.logo-container {
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.hero__logo-container {
   width: 200px;
 }
 
-.blurb {
+.hero__blurb {
   margin-top: 30px;
   font-size: 16px;
   font-weight: bold;
 }
 
-.divider {
+.hero__divider {
   width: 2px;
   height: 50px;
-  margin-top: 30px;
+  margin-top: 40px;
   background-color: #333;
 }
 
-.article {
+.article-listings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.article-listing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   max-width: 700px;
   margin-top: 30px;
-  padding: 40px 20px;
+  padding: 30px 15px;
   background-color: #fcfafd;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
 }
 
-.article__title {
+.article-listing__title {
   font-size: 30px;
   font-weight: bold;
   color: #333333;
 }
 
-.article__dash {
-  padding: 0 4px;
-  font-size: 18px;
-  color: #555;
+.article-listing__divider {
+  margin: 15px 0;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
 }
 
-.article__subtitle {
+.article-listing__subtitle {
   padding-left: 5px;
   font-size: 18px;
   color: #555;
