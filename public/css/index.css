@@ -456,7 +456,58 @@ template {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Arial", sans-serif;
+  color: #333333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 10px;
+}
+
+.logo-container {
+  width: 200px;
+}
+
+.blurb {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.divider {
+  width: 2px;
+  height: 50px;
+  margin-top: 30px;
+  background-color: #333;
+}
+
+.article {
+  width: 100%;
+  max-width: 700px;
+  margin-top: 30px;
+  padding: 40px 20px;
+  background-color: #fcfafd;
+  cursor: pointer;
+}
+
+.article__title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.article__dash {
+  padding: 0 4px;
+  font-size: 18px;
+  color: #555;
+}
+
+.article__subtitle {
+  padding-left: 5px;
+  font-size: 18px;
+  color: #555;
 }
