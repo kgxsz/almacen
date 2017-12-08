@@ -30,7 +30,7 @@ body {
  * Add the correct display in IE 9-.
  */
 
-article-listing,
+article,
 aside,
 footer,
 header,
@@ -41,7 +41,7 @@ section {
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
- * `article-listing` contexts in Chrome, Firefox, and Safari.
+ * `article` contexts in Chrome, Firefox, and Safari.
  */
 
 h1 {
@@ -511,7 +511,7 @@ body {
   background-color: #333333;
 }
 
-.article-listings {
+.article-headers {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -519,7 +519,7 @@ body {
   margin-top: 10px;
 }
 
-.article-listing {
+.article-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -533,20 +533,20 @@ body {
   text-align: center;
 }
 
-.article-listing__title {
+.article-header__title {
   font-size: 36px;
   font-weight: bold;
   color: #333333;
 }
 
-.article-listing__divider {
+.article-header__divider {
   margin: 15px 0;
   width: 30px;
   height: 2px;
   background-color: #333333;
 }
 
-.article-listing__subtitle {
+.article-header__subtitle {
   padding-left: 5px;
   font-size: 18px;
   color: #555555;
