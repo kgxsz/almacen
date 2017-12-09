@@ -559,7 +559,9 @@ body {
 
 .review__image {
   width: 216px;
+  min-width: 216px;
   height: 270px;
+  min-height: 270px;
 }
 
 .review__content {
