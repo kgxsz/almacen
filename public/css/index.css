@@ -467,7 +467,7 @@ body {
 
 .logo__cls-2,
 .logo__cls-3 {
-  fill: #333;
+  fill: #333333;
 }
 
 .logo__cls-3 {
@@ -476,15 +476,19 @@ body {
 
 .logo__cls-4 {
   fill: none;
-  stroke: #333;
+  stroke: #333333;
   stroke-width: 3px;
+}
+
+.forks__cls-1 {
+  fill: #333333;
 }
 
 .page {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 720px;
+  max-width: 920px;
   margin: 0 auto;
   padding: 0 10px 40px 10px;
 }
@@ -514,12 +518,12 @@ body {
   background-color: #333333;
 }
 
-.article-headers {
+.article-listings {
   width: 100%;
   margin-top: 10px;
 }
 
-.article-header {
+.article-listing {
   display: block;
   width: 100%;
   margin-top: 30px;
@@ -530,38 +534,70 @@ body {
   text-align: center;
 }
 
-.article-header__title {
+.article-listing__title {
   font-size: 36px;
   font-weight: bold;
   color: #333333;
 }
 
-.article-header__divider {
+.article-listing__divider {
   margin: 15px auto;
   width: 30px;
-  height: 2px;
-  background-color: #333333;
+}
+
+.article-listing__subtitle {
+  padding-left: 5px;
+  font-size: 18px;
+  color: #555555;
+}
+
+.article-header {
+  display: block;
+  width: 100%;
+  margin: 30px 0 40px 0;
+  padding: 30px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.article-header__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.article-header__divider {
+  margin: 20px auto;
+  width: 30px;
 }
 
 .article-header__subtitle {
   padding-left: 5px;
-  font-size: 18px;
+  font-size: 20px;
   color: #555555;
 }
 
 .review {
   display: flex;
   flex-direction: row;
-  height: 270px;
+  height: 300px;
   width: 100%;
   margin-top: 50px;
 }
 
 .review__image {
-  width: 216px;
-  min-width: 216px;
-  height: 270px;
-  min-height: 270px;
+  width: 300px;
+  min-width: 300px;
+  height: 300px;
+  min-height: 300px;
+}
+
+@media all and (max-width: 600px) {
+  .review__image {
+    width: 116px;
+    min-width: 116px;
+  }
 }
 
 .review__content {
