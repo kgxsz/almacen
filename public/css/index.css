@@ -625,6 +625,7 @@ body {
 }
 
 .review__content__title__link {
+  display: inline-block;
   text-decoration: none;
 }
 
