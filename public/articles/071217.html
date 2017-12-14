@@ -65,7 +65,7 @@
 
         <div class="review">
           <div class="review__image-container">
-            <img class="review__image" src="../images/articles/071217/alfajor.jpg">
+            <img class="review__image" data-src="../images/articles/071217/alfajor.jpg">
           </div>
           <div class="review__content">
             <div class="review__content__title">
@@ -116,7 +116,7 @@
 
         <div class="review">
           <div class="review__image-container">
-            <img class="review__image" src="../images/articles/071217/asado.jpg">
+            <img class="review__image" data-src="../images/articles/071217/asado.jpg">
           </div>
           <div class="review__content">
             <div class="review__content__title">
@@ -155,4 +155,14 @@
     </div>
   </div>
 </body>
+
+<script type="text/javascript">
+[].forEach.call(document.querySelectorAll("img[data-src]"), function(img) {
+  img.setAttribute("src", img.getAttribute("data-src"));
+  img.onload = function() {
+    img.removeAttribute("data-src");
+  };
+});
+</script>
+
 </html>

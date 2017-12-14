@@ -631,6 +631,15 @@ body {
   height: 100%;
 }
 
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
 .review__content {
   flex-grow: 1;
   margin-left: 50px;
