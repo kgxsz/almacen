@@ -592,7 +592,7 @@ body {
 .review {
   display: flex;
   flex-direction: row;
-  margin-top: 70px;
+  margin: 70px 0;
 }
 
 @media all and (max-width: 767px) {
