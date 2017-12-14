@@ -606,20 +606,22 @@ body {
 
 .review__image-container {
   position: relative;
-  width: 100%;
+  width: 300px;
   min-width: 300px;
   background-color: #fdfdfd;
+}
+
+@media all and (max-width: 767px) {
+  .review__image-container {
+    width: 100%;
+    min-width: 300px;
+  }
 }
 
 .review__image-container:after {
   display: block;
   content: "";
   padding-bottom: 100%;
-}
-
-@media all and (max-width: 767px) {
-  .review__image-container {
-  }
 }
 
 .review__image {
