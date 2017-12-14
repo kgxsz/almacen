@@ -461,6 +461,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
 .logo__cls-1 {
   fill: #ffffff;
 }
@@ -629,15 +638,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-}
-
-img {
-  opacity: 1;
-  transition: opacity 0.3s;
-}
-
-img[data-src] {
-  opacity: 0;
 }
 
 .review__content {
