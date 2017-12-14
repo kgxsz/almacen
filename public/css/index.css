@@ -462,7 +462,7 @@ body {
 }
 
 .logo__cls-1 {
-  fill: #fcfafd;
+  fill: #ffffff;
 }
 
 .logo__cls-2,
@@ -492,101 +492,106 @@ body {
   fill: #333333;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 0 10px 40px 10px;
+.header-container {
+  border-bottom: solid 4px #f4f4f4;
+  background-color: #fdfdfd;
 }
 
-.hero {
+.header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-top: 50px;
+  max-width: 860px;
+  height: 77px;
+  padding: 0 30px;
+  margin: auto;
 }
 
-.hero__logo-container {
-  width: 240px;
+@media all and (max-width: 767px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 420px;
+    height: 117px;
+    padding: 20px 10px;
+  }
 }
 
-.hero__blurb {
-  margin-top: 30px;
-  font-size: 18px;
-  color: #555555;
-}
-
-.hero__divider {
-  width: 2px;
-  height: 50px;
-  margin-top: 40px;
-  background-color: #333333;
-}
-
-.article-listings {
-  width: 100%;
+.header__logo-container {
+  width: 180px;
   margin-top: 10px;
 }
 
-.article-listing {
-  display: block;
-  width: 100%;
-  margin-top: 30px;
-  padding: 30px 10px;
-  background-color: #fcfafd;
+.header__logo-container--link {
   cursor: pointer;
   text-decoration: none;
-  text-align: center;
 }
 
-.article-listing__title {
-  font-size: 36px;
-  font-weight: bold;
-  color: #333333;
+.header__blurb {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  font-size: 16px;
+  color: #777777;
 }
 
-.article-listing__divider {
-  margin: 15px auto;
-  width: 30px;
+.page {
+  width: 100%;
+  max-width: 860px;
+  margin: 40px auto 60px auto;
+  padding: 0 30px;
 }
 
-.article-listing__subtitle {
-  padding-left: 5px;
-  font-size: 18px;
-  color: #555555;
+@media all and (max-width: 767px) {
+  .page {
+    max-width: 420px;
+    padding: 0 10px;
+  }
 }
 
 .article-header {
   display: block;
   width: 100%;
-  margin: 60px 0 30px 0;
+  padding: 20px 0;
+}
+
+.article-header--link {
+  cursor: pointer;
   text-decoration: none;
-  text-align: center;
 }
 
 .article-header__title {
-  font-size: 48px;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.3;
   color: #333333;
 }
 
-.article-header__divider {
-  margin: 20px auto;
-  width: 30px;
+.article-header__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #aaaaaa;
 }
 
-.article-header__subtitle {
-  font-size: 20px;
-  color: #555555;
+.divider {
+  width: 60px;
+  height: 4px;
+  margin: 30px 0;
+  background-color: #333333;
+}
+
+.reviews {
 }
 
 .review {
   display: flex;
   flex-direction: row;
-  width: 100%;
   margin-top: 70px;
 }
 
@@ -594,8 +599,8 @@ body {
   .review {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin-top: 80px;
+    align-items: center;
+    width: 100%;
   }
 }
 
@@ -605,6 +610,13 @@ body {
   height: 300px;
   min-height: 300px;
   background-color: #fcfafd;
+}
+
+@media all and (max-width: 767px) {
+  .review__image {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .review__content {
@@ -620,32 +632,37 @@ body {
 }
 
 .review__content__title {
-  font-size: 32px;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
   color: #333333;
 }
 
 .review__content__title__link {
+  margin: 0 2px;
   display: inline-block;
   text-decoration: none;
 }
 
 .review__content__paragraph {
   margin-top: 15px;
-  font-size: 16px;
-  line-height: 1.35;
-  color: #555555;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #777777;
 }
 
 .review__content__link {
   display: inline-block;
   margin: 0 1px 0 0;
-  padding: 2px 3px 1px 4px;
-  font-size: 15px;
-  line-height: 1.1;
-  background-color: #fcfafd;
-  color: #333333;
+  padding: 0px 3px 0px 4px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.3;
+  background-color: #fdfdfd;
+  color: #777777;
   text-decoration: none;
-  font-weight: bold;
-  border-bottom: solid 2px #333333;
+  border-bottom: solid 1px #777777;
 }

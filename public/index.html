@@ -6,12 +6,14 @@
   <title>Loiterer</title>
   <link rel="shortcut icon" href="images/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,800" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <div class="page">
-    <div class="hero">
-      <div class="hero__logo-container">
+
+  <div class="header-container">
+    <div class="header">
+      <div class="header__logo-container">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="2646 -1506 240 46">
           <g id="logo" transform="translate(2223 -1600)">
             <rect id="backing" class="logo__cls-1" width="234" height="40" transform="translate(423 94)"/>
@@ -38,45 +40,34 @@
           </g>
         </svg>
       </div>
-      <div class="hero__blurb">
+      <div class="header__blurb">
         A travelling food guide.
       </div>
-      <div class="hero__divider">
-      </div>
     </div>
-    <div class="article-listings">
-      <a class="article-listing" href="articles/071217.html">
-        <div class="article-listing__title">
-          Eat Buenos Aires
-        </div>
-        <div class="article-listing__divider">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="3081 -1146.132 31.894 12.549">
-            <g id="forks" transform="translate(2474.316 -1253)">
-              <path id="fork" class="forks__cls-1" d="M.63,29.26H.617l.006-.111c0-.072-.006-.145-.006-.219a4.024,4.024,0,0,1,.05-.639l.888-17.08A6.051,6.051,0,0,1,0,6.782L.617,0h.616V6.782h.926L2.466,0h.616l.31,6.782h.924V0h.618l.616,6.782a6.046,6.046,0,0,1-1.557,4.431l.889,17.079a4.148,4.148,0,0,1,.051.639c0,.074,0,.147-.007.219l.007.111H4.92c-.119,1.482-1.035,2.634-2.145,2.634S.748,30.742.63,29.26Z" transform="translate(638.579 106.868) rotate(90)"/>
-              <path id="fork-2" data-name="fork" class="forks__cls-1" d="M.63,29.26H.617l.006-.111c0-.072-.006-.145-.006-.219a4.024,4.024,0,0,1,.05-.639l.888-17.08A6.051,6.051,0,0,1,0,6.782L.617,0h.616V6.782h.926L2.466,0h.616l.31,6.782h.924V0h.618l.616,6.782a6.046,6.046,0,0,1-1.557,4.431l.889,17.079a4.148,4.148,0,0,1,.051.639c0,.074,0,.147-.007.219l.007.111H4.92c-.119,1.482-1.035,2.634-2.145,2.634S.748,30.742.63,29.26Z" transform="translate(606.684 119.417) rotate(-90)"/>
-            </g>
-          </svg>
-        </div>
-        <div class="article-listing__subtitle">
-          what to eat and where to find it
-        </div>
+  </div>
+
+  <div class="page">
+    <div class="articles">
+      <a class="article-header article-header--link" href="articles/071217.html">
+        <span class="article-header__title">
+          EATING BUENOS AIRES
+        </span>
+        <span class="article-header__subtitle">
+          — what to eat when you're here, and where to find it
+        </span>
       </a>
-      <a class="article-listing" href="articles/081217.html">
-        <div class="article-listing__title">
-          Cafés of Buenos Aires
-        </div>
-        <div class="article-listing__divider">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="3081 -1146.132 31.894 12.549">
-            <g id="forks" transform="translate(2474.316 -1253)">
-              <path id="fork" class="forks__cls-1" d="M.63,29.26H.617l.006-.111c0-.072-.006-.145-.006-.219a4.024,4.024,0,0,1,.05-.639l.888-17.08A6.051,6.051,0,0,1,0,6.782L.617,0h.616V6.782h.926L2.466,0h.616l.31,6.782h.924V0h.618l.616,6.782a6.046,6.046,0,0,1-1.557,4.431l.889,17.079a4.148,4.148,0,0,1,.051.639c0,.074,0,.147-.007.219l.007.111H4.92c-.119,1.482-1.035,2.634-2.145,2.634S.748,30.742.63,29.26Z" transform="translate(638.579 106.868) rotate(90)"/>
-              <path id="fork-2" data-name="fork" class="forks__cls-1" d="M.63,29.26H.617l.006-.111c0-.072-.006-.145-.006-.219a4.024,4.024,0,0,1,.05-.639l.888-17.08A6.051,6.051,0,0,1,0,6.782L.617,0h.616V6.782h.926L2.466,0h.616l.31,6.782h.924V0h.618l.616,6.782a6.046,6.046,0,0,1-1.557,4.431l.889,17.079a4.148,4.148,0,0,1,.051.639c0,.074,0,.147-.007.219l.007.111H4.92c-.119,1.482-1.035,2.634-2.145,2.634S.748,30.742.63,29.26Z" transform="translate(606.684 119.417) rotate(-90)"/>
-            </g>
-          </svg>
-        </div>
-        <div class="article-listing__subtitle">
-          the best coffee in the city
-        </div>
+      <div class="divider">
+      </div>
+      <a class="article-header article-header--link" href="articles/081217.html">
+        <span class="article-header__title">
+          CAFÉS OF BUENOS AIRES
+        </span>
+        <span class="article-header__subtitle">
+          — the best coffee and the best cafés in the city
+        </span>
       </a>
+      <div class="divider">
+      </div>
     </div>
   </div>
 </body>
