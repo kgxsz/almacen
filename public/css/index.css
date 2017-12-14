@@ -631,11 +631,6 @@ body {
   height: 100%;
 }
 
-.review__image--tiny {
-  -webkit-filter: blur(10px);
-  filter: blur(10px);
-}
-
 .review__content {
   flex-grow: 1;
   margin-left: 50px;
