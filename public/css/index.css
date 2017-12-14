@@ -642,6 +642,7 @@ img[data-src] {
 
 .review__content {
   flex-grow: 1;
+  width: 100%;
   margin-left: 50px;
 }
 
@@ -657,6 +658,10 @@ img[data-src] {
   font-size: 28px;
   font-weight: 800;
   color: #333333;
+}
+
+.review__content__title__links {
+  display: inline-block;
 }
 
 .review__content__title__link {
