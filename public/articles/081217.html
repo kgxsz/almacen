@@ -366,15 +366,9 @@
       </div>
     </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.5.2/lazyload.min.js"></script>
+  <script>new LazyLoad();</script>
+  
 </body>
-
-<script type="text/javascript">
-[].forEach.call(document.querySelectorAll("img[data-src]"), function(img) {
-  img.setAttribute("src", img.getAttribute("data-src"));
-  img.onload = function() {
-    img.removeAttribute("data-src");
-  };
-});
-</script>
-
 </html>
