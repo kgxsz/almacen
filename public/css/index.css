@@ -463,10 +463,10 @@ body {
 
 img {
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 600ms;
 }
 
-img[src] {
+img[data-was-processed="true"] {
   opacity: 1;
 }
 
