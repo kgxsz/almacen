@@ -595,13 +595,10 @@ img[data-src] {
   background-color: #333333;
 }
 
-.reviews {
-}
-
 .review {
   display: flex;
   flex-direction: row;
-  margin: 70px 0;
+  padding: 70px 0;
 }
 
 @media all and (max-width: 767px) {
