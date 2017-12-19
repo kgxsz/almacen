@@ -550,6 +550,7 @@ img[data-src] {
 .page {
   width: 100%;
   max-width: 860px;
+  min-height: 100vh;
   margin: 40px auto 60px auto;
   padding: 0 30px;
 }
