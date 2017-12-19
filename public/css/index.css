@@ -615,6 +615,7 @@ img[data-src] {
   position: relative;
   width: 300px;
   min-width: 300px;
+  max-height: 300px;
   background-color: #f4f4f4;
   overflow: hidden;
 }
@@ -623,6 +624,7 @@ img[data-src] {
   .review__image-container {
     width: 100%;
     min-width: 300px;
+    max-height: none;
   }
 }
 
