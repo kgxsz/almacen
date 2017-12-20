@@ -77,7 +77,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="cuervo" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/cuervo.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/cuervo.svg">
             <img class="review__image" data-src="../images/articles/081217/cuervo.jpg">
           </div>
           <div class="review__content">
@@ -108,7 +108,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="santa-cafe" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/santa-cafe.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/santa-cafe.svg">
             <img class="review__image" data-src="../images/articles/081217/santa-cafe.jpg">
           </div>
           <div class="review__content">
@@ -139,7 +139,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="lattente" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/lattente.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/lattente.svg">
             <img class="review__image" data-src="../images/articles/081217/lattente.jpg">
           </div>
           <div class="review__content">
@@ -170,7 +170,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="coffee-town" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/coffee-town.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/coffee-town.svg">
             <img class="review__image" data-src="../images/articles/081217/coffee-town.jpg">
           </div>
           <div class="review__content">
@@ -201,7 +201,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="la-noire" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/la-noire.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/la-noire.svg">
             <img class="review__image" data-src="../images/articles/081217/la-noire.jpg">
           </div>
           <div class="review__content">
@@ -232,7 +232,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="negro-cueva-de-cafe" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/negro-cueva-de-cafe.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/negro-cueva-de-cafe.svg">
             <img class="review__image" data-src="../images/articles/081217/negro-cueva-de-cafe.jpg">
           </div>
           <div class="review__content">
@@ -263,7 +263,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="registrado" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/registrado.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/registrado.svg">
             <img class="review__image" data-src="../images/articles/081217/registrado.jpg">
           </div>
           <div class="review__content">
@@ -294,7 +294,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="pick-and-go" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/pick-and-go.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/pick-and-go.svg">
             <img class="review__image" data-src="../images/articles/081217/pick-and-go.jpg">
           </div>
           <div class="review__content">
@@ -325,7 +325,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="lab" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/lab.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/lab.svg">
             <img class="review__image" data-src="../images/articles/081217/lab.jpg">
           </div>
           <div class="review__content">
@@ -356,7 +356,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="felix-felicis-and-co" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/felix-felicis-and-co.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/felix-felicis-and-co.svg">
             <img class="review__image" data-src="../images/articles/081217/felix-felicis-and-co.jpg">
           </div>
           <div class="review__content">
@@ -387,7 +387,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="ninina" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/ninina.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/ninina.svg">
             <img class="review__image" data-src="../images/articles/081217/ninina.jpg">
           </div>
           <div class="review__content">
@@ -418,7 +418,7 @@ gtag("config", "UA-111267917-1");
 
         <div id="vive" class="review">
           <div class="review__image-container">
-            <img class="review__image" data-src="../images/articles/081217/vive.svg">
+            <img class="review__placeholder" data-src="../images/articles/081217/vive.svg">
             <img class="review__image" data-src="../images/articles/081217/vive.jpg">
           </div>
           <div class="review__content">
@@ -452,7 +452,8 @@ gtag("config", "UA-111267917-1");
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.5.2/lazyload.min.js"></script>
   <script type="text/javascript">
-  new LazyLoad({ threshold: 400 });
+  new LazyLoad({ threshold: 300, elements_selector: ".review__placeholder" });
+new LazyLoad({ threshold: 100, elements_selector: ".review__image" });
 </script>
 
 </body>

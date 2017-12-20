@@ -634,6 +634,12 @@ img.loaded {
   padding-bottom: 100%;
 }
 
+.review__placeholder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .review__image {
   position: absolute;
   width: 100%;
