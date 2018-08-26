@@ -13,3 +13,5 @@ pom.xml.asc
 .nrepl-port
 .DS_Store
 firebase-debug.log
+node_modules
+.firebase
