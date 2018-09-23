@@ -1,3 +1,3 @@
 # Almacen
 
-##### The repository backing [loiterer.io](https://loiterer.io).
+##### A repository for playing around with pure HTML and CSS. 
